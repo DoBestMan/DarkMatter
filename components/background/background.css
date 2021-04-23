@@ -1,0 +1,103 @@
+/**
+ * Background animation.
+ */
+.bgContainer {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bgLayer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bgTiled {
+  background-position: 0px 0px;
+  background-repeat: repeat;
+}
+
+.bgLayer1 {
+  z-index: 1;
+  animation: 100s bgScroll1 infinite linear;
+}
+
+.bgLayer2 {
+  z-index: 2;
+  animation: 50s bgScroll2 infinite linear;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.bgLayer3 {
+  z-index: 3;
+}
+
+@-webkit-keyframes bgScroll1 {
+  100% {
+    background-position: -500px 0px;
+  }
+}
+
+@-moz-keyframes bgScroll1 {
+  100% {
+    background-position: -500px 0px;
+  }
+}
+
+@-o-keyframes bgScroll1 {
+  100% {
+    background-position: -500px 0px;
+  }
+}
+
+@-ms-keyframes bgScroll1 {
+  100% {
+    background-position: -500px 0px;
+  }
+}
+
+@keyframes bgScroll1 {
+  100% {
+    background-position: -500px 0px;
+  }
+}
+
+@-webkit-keyframes bgScroll2 {
+  100% {
+    background-position: -500px 0px;
+  }
+}
+
+@-moz-keyframes bgScroll2 {
+  100% {
+    background-position: -500px 0px;
+  }
+}
+
+@-o-keyframes bgScroll2 {
+  100% {
+    background-position: -500px 0px;
+  }
+}
+
+@-ms-keyframes bgScroll2 {
+  100% {
+    background-position: -500px 0px;
+  }
+}
+
+@keyframes bgScroll2 {
+  100% {
+    background-position: -500px 0px;
+  }
+}

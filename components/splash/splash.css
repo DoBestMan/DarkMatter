@@ -1,0 +1,21 @@
+/**
+ * Splash animations.
+ */
+.splashLogoIn {
+  opacity: 1!important;
+}
+
+.splashLogoOut {
+  transition: all 1.5s ease-in!important;
+  opacity: 0!important;
+}
+
+.splashTopShutter {
+  opacity: 0.9;
+  transform: translateY(-100%);
+}
+
+.splashBotShutter {
+  opacity: 0.9;
+  transform: translateY(100%);
+}
